@@ -2,3 +2,30 @@
  * All of the CSS for your public-facing functionality should be
  * included in this file.
  */
+
+ .blog-nav.nav-prev, .blog-nav.nav-next {
+ 	position: fixed;
+ 	top: 40%;
+ 	width: 7em;
+ 	overflow: hidden;
+ 	background: #e0e0e0;
+ 	border-radius: 5px;
+ }
+
+.blog-nav.nav-prev {
+  	padding: 15px 15px 15px 25px;
+ 	left: -10px;
+}
+
+.blog-nav.nav-next {
+  	padding: 15px 25px 15px 15px;
+ 	right: -10px;
+}
+
+.blog-nav.nav-prev i, .blog-nav.nav-next i {
+    color: white;
+}
+.blog-nav.nav-prev span, .blog-nav.nav-next span {
+    color: white;
+    font-size: 14px;
+}  

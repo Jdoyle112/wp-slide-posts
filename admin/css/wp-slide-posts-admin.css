@@ -2,3 +2,17 @@
  * All of the CSS for your admin-specific functionality should be
  * included in this file.
  */
+
+form.setup .form-group {
+	margin: 30px;
+}
+
+form.setup .form-group.post_select input {
+	margin-right: 25px;
+}
+
+
+form.setup .form-group.post_select span {
+	margin-right: 5px;
+}
+
